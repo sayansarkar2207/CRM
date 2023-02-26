@@ -1,0 +1,4 @@
+$(document).ready(function(){$('.currency').autoNumeric('init');$('#input-select-currency').autoNumeric('init');$('#radio-select-currency').change(function(){var value=$('#radio-select-currency input:checked').val();if(value=='dollar'){$('#input-select-currency').autoNumeric('update',{aSign:'$ '});}
+if(value=='euro'){$('#input-select-currency').autoNumeric('update',{aSign:'€ '});}
+if(value=='pound'){$('#input-select-currency').autoNumeric('update',{aSign:'£ '});}
+if(value=='yen'){$('#input-select-currency').autoNumeric('update',{aSign:'¥ '});}}).change();});$(function(){$("#stepper1").stepper({});$("#stepper2").stepper({allowWheel:false,UI:false,arrowStep:0.1});$("#stepper3").stepper({limit:[-10,10],wheelStep:0.2,});$("#stepper4").stepper({limit:[5,]});});

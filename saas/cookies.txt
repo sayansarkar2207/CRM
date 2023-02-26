@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+developers.google.com	TRUE	/	FALSE	1999999999	_ga_devsite	GA1.3.2247683878.1677413517
+
